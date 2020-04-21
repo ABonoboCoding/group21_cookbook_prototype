@@ -8,12 +8,22 @@
 	</head>
 	<body>
 		<div class="cookbook__background">
-    	<div class="cookbook__title"> The &#9813;<br> Cook Book </div>
-			<div class="cookbook__symbol" >	&#127859; &#128214;	&#128298;</div>
-			<div class="cookbook__buttons" >Recipes</div>
-			<div class="cookbook__buttons" >Techniques</div>
-			<div class="cookbook__version" >Ver: Alpha 1.0</div>
-			<div class="cookbook__setting" >&#9881;</div>
+			<div id="homepage__layer" >
+    		<div class="cookbook__title"> The &#9813;<br> Cook Book </div>
+				<div class="cookbook__symbol" >	&#127859; &#128214;	&#128298;</div>
+				<div class="cookbook__button" onclick="show__recipes()">Recipes</div>
+				<div class="cookbook__button" onclick="show__techniques()">Techniques</div>
+				<div class="cookbook__version" >Ver: Alpha 1.0</div>
+				<div class="cookbook__setting" >&#9881;</div>
+			</div>
+			<div id="recipes__layer">
+				<div class="gohome__button" onclick="show__homepage()">&#127968;</div>
+				<h1>Recipes&#128214;</h1>
+			</div>
+			<div id="techniques__layer">
+				<div class="gohome__button" onclick="show__homepage()">&#127968;</div>
+				<h1>Techniques</h1>
+			</div>
 		</div>
     <script src="js/js.js"></script>
   </body>

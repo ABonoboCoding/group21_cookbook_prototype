@@ -1,6 +1,16 @@
 body {
 	background-color: #fff2e6;
 }
+
+/*default display*/
+#homepage__layer {
+	display: block;
+}
+
+#recipes__layer, #techniques__layer {
+	display: none;
+}
+
 .cookbook__background {
 	width: 90%;
 	/*min-height: 550px;*/
@@ -14,7 +24,7 @@ body {
 	width: 100%;
 	text-align: center;
 	margin-top: 30px;
-	margin-bottom: 100px;
+	margin-bottom: 70px;
 }
 
 .cookbook__symbol {
@@ -23,15 +33,26 @@ body {
 	margin: 30px auto ;
 }
 
-.cookbook__buttons {
+.cookbook__button {
 	text-align: center;
 	background-color: #007a87;
   border-radius: 3px;
   border: 1px solid #0000b3;
-  font-size: 35px;
-  width: 50%;
+  font-size: 30px;
+  width: 60%;
   color: white;
 	margin: 5px auto ;
+}
+
+.gohome__button {
+	float:right;
+	/*padding: 0 10px;*/
+	/*width: 30%;*/
+	border: 1px solid black;
+	/*margin-top: 50px;
+	margin-left:  auto;*/
+	font-size: 25px;
+	background-color: #eee;
 }
 
 .cookbook__buttons:hover {
