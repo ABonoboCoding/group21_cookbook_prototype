@@ -23,7 +23,10 @@
 					<div class="recipes__card__img">
 						<img src="images/friedbeef.png" alt="friedbeef">
 					</div>
-					<div class="recipes__card__content">Fried beef with onion
+					<div class="recipes__card__content">
+						<div>Fried beef with onion</div>
+						<div class="recipes__button" onclick="show__materials()">Materials</div>
+						<div class="recipes__button" onclick="show__start()">start</div>
 					</div>
 				</div>
 				<div class="recipes__card">
@@ -36,6 +39,44 @@
 			<div id="techniques__layer">
 				<div class="gohome__button" onclick="show__homepage()">&#127968;</div>
 				<h1>Techniques</h1>
+			</div>
+			<div id="materials__layer">
+				<h1>Fried beef with onion</h1>
+				<h2>Materials:</h2>
+				<ul>
+					<li>Steak: 30g</li>
+					<li>Onion: 2</li>
+					<li>Vegetable oil</li>
+					<li>Salt</li>
+					<li>Suger</li>
+					<li>Pepper</li>
+					<li>Vegetable oil</li>
+				</ul>
+				<h2>Utensils:</h2>
+				<ul>
+					<li>Chopping knife</li>
+					<li>Chopping board</li>
+					<li>Pan (flat)</li>
+				</ul>
+				<div class="return__button" onclick="show__recipes()">&#8678;</div>
+				<div class="change__section__button" onclick="show__start()">Start</div>
+			</div>
+			<div id="start__layer">
+				<h1>Fried beef with onion</h1>
+				<h2>Step 1:</h2>
+				<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					In egestas vehicula tellus, eget luctus ipsum posuere non.
+				</div>
+				<div>Etiam sem quam, lobortis eget auctor vel, ultrices ac ipsum.
+				Sed in volutpat lectus.
+				</div>
+				<div>Demo:</div>
+				<div class="start__demo">
+					<div class="start__demo__card">pic</div>
+					<div class="start__demo__card">Gif</div>
+					<div class="start__demo__card">Vid</div>
+				</div>
+				<div class="return__button" onclick="show__recipes()">&#8678;</div>
 			</div>
 		</div>
     <script src="js/js.js"></script>

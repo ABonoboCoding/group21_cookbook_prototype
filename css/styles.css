@@ -5,7 +5,7 @@ body {
 #homepage__layer {
 	display: block;
 }
-#recipes__layer, #techniques__layer {
+#recipes__layer, #techniques__layer, #materials__layer, #start__layer {
 	display: none;
 }
 /*body*/
@@ -80,9 +80,58 @@ body {
 }
 .recipes__card__content {
 	float: left;
-	/*width: 60%;*/
 	background-color: #fffaf5;
 	height: 75px;
 	width: 150px;
 	font-size: 18px;
+}
+.recipes__button {
+	float:left;
+	text-align: center;
+	background-color: #007a87;
+  border-radius: 5px;
+  border-color: 0px #0000b3 solid;
+  width: 50%;
+  color: white;
+	margin: 5px auto ;
+}
+.recipes__buttons:hover {
+	background-color: #72ce98;
+}
+/*sub sub page: Materials & Start*/
+.return__button {
+	width: 50px;
+	height: 50px;
+	font-size: 40px;
+	float:left;
+	text-align: center;
+	background-color: #007a87;
+	border-radius: 5px;
+	/*width: 30%;*/
+	color: white;
+	/*margin-bottom: 5px auto;*/
+}
+.change__section__button {
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	float:right;
+	color: white;
+	border-radius: 5px;
+	font-size: 40px;
+	background-color: #007a87;
+}
+.start__demo {
+	text-align: center;
+	width: 100%;
+	margin:auto;
+}
+.start__demo__card {
+	float: left;
+	text-align: center;
+	width: 30%;
+	margin: auto 4px;
+	background-color: #007a87;
+  border-radius: 5px;
+	color: white;
 }
