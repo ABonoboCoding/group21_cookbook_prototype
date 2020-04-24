@@ -35,3 +35,6 @@ function show__start() {
   document.getElementById("materials__layer").style.display = "none";
   document.getElementById("start__layer").style.display = "block";
 }
+function openwin() {
+window.open ("Cut_fish_pic.html", "height=100, width=400, toolbar =no, menubar=no, scrollbars=no, resizable=no, location=no, status=no");
+}
