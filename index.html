@@ -91,17 +91,41 @@
 				</div>
 				<div>Demo:</div>
 				<div class="start__demo">
-
 				<div>
-				<a href="#" onclick="openwin()" class="start__demo__card" >pic</a>
+					<INPUT TYPE="button" value='pic' onclick="pic_layer()" class="start__demo__card">
+				</div>
+				<div>
+						<img src="images/cut_fish.PNG" id="pic_window" style='display:none' width="200px" hight="100px">
 				</div>
 
 
 
 
-					<div class="start__demo__card">Gif</div>
-					<div class="start__demo__card">Vid</div>
-				</div>
+
+
+					<div>
+						<INPUT TYPE="button" value='gif' onclick="gif_layer()" class="start__demo__card">
+					</div>
+					<div>
+							<img src="images/cut_fish_gif.gif" id="gif_window" style='display:none' width="320px" hight="240px">
+					</div>
+
+
+
+					<div>
+						<INPUT TYPE="button" value='vid' onclick="vid_layer()" class="start__demo__card">
+					</div>
+			<div>
+					<video width="320" height="240" controls id="vid_window" style='display:none'>
+					  <source src="images/cut_fish_video.mp4" type="video/mp4">
+					  <source src="images/cut_fish_video.mp4.ogg" type="video/ogg">
+					  <source src="images/cut_fish_video.mp4.webm" type="video/webm">
+					  <object data="images/cut_fish_video.mp4.mp4" width="320" height="240">
+					    <embed src="images/cut_fish_video.mp4.swf" width="320" height="240">
+  					</object>
+					</video>
+</div>
+
 				<div class="return__button" onclick="show__recipes()">&#8678;</div>
 			</div>
 		</div>

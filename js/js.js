@@ -35,6 +35,13 @@ function show__start() {
   document.getElementById("materials__layer").style.display = "none";
   document.getElementById("start__layer").style.display = "block";
 }
-function openwin() {
-window.open ("Cut_fish_pic.html", "height=100, width=400, toolbar =no, menubar=no, scrollbars=no, resizable=no, location=no, status=no");
-}
+
+function pic_layer(){
+    document.getElementById('pic_window').style.display = "block";
+    }
+function gif_layer(){
+    document.getElementById('gif_window').style.display = "block";
+        }
+function vid_layer(){
+    document.getElementById('vid_window').style.display = "block";
+                }
